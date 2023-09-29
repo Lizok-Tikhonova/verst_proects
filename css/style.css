@@ -8,6 +8,7 @@ font-family: 'Poppins', sans-serif; */
 
 *{
     font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.5px;
 }
 
 /* nav */
@@ -17,6 +18,7 @@ font-family: 'Poppins', sans-serif; */
     color:#fff;
     padding: 20px 0;
     border-bottom: solid 1px #26292D;
+    letter-spacing: normal;
 }
 
 .container{
@@ -49,6 +51,11 @@ font-family: 'Poppins', sans-serif; */
    display: flex;
    align-items: center;
    column-gap: 40px;
+   row-gap: 20px;
+
+   /* чтобы происходил перенос */
+   flex-wrap: wrap;
+
    font-size: 16px;
    font-weight: 500;
    font-family: 'Poppins', sans-serif;
@@ -61,6 +68,10 @@ font-family: 'Poppins', sans-serif; */
 .nav-list__link{
     text-decoration: none;
     color:#fff;
+    transition: opacity 0.2s;
+}
+.nav-list__link:hover{
+    opacity: 0.8;
 }
 
 .nav-list__link--active{
@@ -79,5 +90,70 @@ font-family: 'Poppins', sans-serif; */
     height: 2px;
     width: 100%;
     background-color: #5C62EC;
+}
+
+
+/* Header */
+.header{
+    background-color: #171718;
+    color:#fff;
+    min-height: 695px;
+    padding: 40px 0;
+
+    background-image: url("./../img/Abstract.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+
+.header__wrapper{
+    min-width: 630px;
+    padding: 0 15px;
+}
+
+.header__title{
+    font-style: 40px;
+    font-weight: 700;
+}
+.header__title strong{
+    font-size: 60px;
+    font-weight: 700;
+}
+.header__title span{
+    color:#5C62EC;
+}
+.header__text{
+    margin-bottom: 40px;
+    font-style: 18px;
+    line-height: 1.333;
+}
+.btn{
+    display: inline-block;
+    background-color: #5C62EC;
+    /* height: 48px; */
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    color:#fff;
+    letter-spacing: 0.15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.2s ease-in;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn:active{
+    position: relative;
+    top: 1px;
 }
 
