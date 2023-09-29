@@ -4,25 +4,25 @@
 	border: none;
 }
 
-*,
+/* *,
 *::before,
 *::after {
 	box-sizing: border-box;
-}
+} */
 
 /* Links */
 
-a, a:link, a:visited  {
+/* a, a:link, a:visited  {
     text-decoration: none;
 }
 
 a:hover  {
     text-decoration: none;
-}
+} */
 
 /* Common */
 
-aside, nav, footer, header, section, main {
+/* aside, nav, footer, header, section, main {
 	display: block;
 }
 
@@ -46,11 +46,11 @@ img, svg {
 
 address {
   font-style: normal;
-}
+} */
 
 /* Form */
 
-input, textarea, button, select {
+/* input, textarea, button, select {
 	font-family: inherit;
     font-size: inherit;
     color: inherit;
@@ -67,14 +67,14 @@ button, input[type="submit"] {
     background-color: transparent;
     background: none;
     cursor: pointer;
-}
+} */
 
-input:focus, input:active,
+/* input:focus, input:active,
 button:focus, button:active {
     outline: none;
-}
+} */
 
-button::-moz-focus-inner {
+/* button::-moz-focus-inner {
 	padding: 0;
 	border: 0;
 }
@@ -85,4 +85,4 @@ label {
 
 legend {
 	display: block;
-}
+} */
