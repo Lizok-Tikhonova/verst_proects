@@ -200,7 +200,29 @@ font-family: 'Poppins', sans-serif; */
     font-weight: 700;
     font-style: 24px;
     color: rgb(0, 0, 0);
-    
 }
 
+/* Footer */
+.footer{
+    background-color: #171718;
+    padding: 60px 0 50px;
+    color:#fff;
 
+}
+.icons{
+    list-style-type:none;
+    display: flex;
+    column-gap: 30px;
+}
+
+.copyright{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 27px;
+}
